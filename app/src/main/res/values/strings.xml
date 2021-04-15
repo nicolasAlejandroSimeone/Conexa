@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Conexa</string>
+    <string name="_1">1</string>
+    <string name="a_adir_al_carrito">Añadir al Carrito</string>
+    <string name="conexa">Conexa</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="quitar_del_carrito">Quitar todo del carrito</string>
+    <string name="total">Total:</string>
+    <string name="buscar_producto">Buscar Producto</string>
+</resources>

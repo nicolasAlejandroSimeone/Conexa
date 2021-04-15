@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar
+    android:id="@+id/toolbar"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/holo_orange_dark"
+    android:elevation="4dp"
+    android:theme="@style/AppTheme"
+    app:popupTheme="@style/AppTheme">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:text="@string/conexa"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="8dp"
+        android:layout_gravity="center"
+        android:textSize="25sp"/>
+
+
+    <ImageView
+        android:id="@+id/cart"
+        android:layout_gravity="end"
+        android:src="@drawable/baseline_shopping_cart_black_32"
+        app:tint="@android:color/white"
+        android:layout_marginEnd="18dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+</androidx.appcompat.widget.Toolbar>
